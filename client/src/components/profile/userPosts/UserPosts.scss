@@ -1,0 +1,19 @@
+.post{
+    position: relative;
+
+    &:hover{
+        .post-overlay{
+            opacity: 1;
+        }
+    }
+
+    &-overlay{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        cursor: pointer;
+        color: white;
+    }
+}
