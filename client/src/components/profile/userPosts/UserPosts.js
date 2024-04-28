@@ -35,7 +35,7 @@ const UserPosts = () => {
 
 const Posts = () => {
     return(
-        <div className='post w-[296px] h-[296px]'>
+        <div className='post w-[296px] h-[296px] cursor-pointer'>
             <img className='h-full w-full bg-cover' src='https://cdn.pixabay.com/photo/2017/02/21/16/30/mexico-2086549_1280.jpg' alt='post img'/>
             <div className='post-overlay'>
                 <div className='post-overlay__text flex items-center justify-center gap-6'>
